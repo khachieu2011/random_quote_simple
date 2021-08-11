@@ -22,7 +22,7 @@ body {
   flex-direction: column;
 }
 
-.card {
+/* .card {
   background: whitesmoke;
   width: 35%;
   height: auto;
@@ -32,7 +32,7 @@ body {
   border-radius: 10px;
   padding: 2%;
   box-shadow: 1px 1px 1px 1px;
-}
+} */
 
 .heading {
   display: flex;
@@ -43,11 +43,11 @@ body {
 .author {
   display: flex;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: darkgrey;
 }
 
-.button {
+/* .button {
   position: relative;
   outline: none;
   text-decoration: none;
@@ -63,7 +63,7 @@ body {
   opacity: 1;
   background-color: #ffffff;
   border: 1px solid rgba(22, 76, 167, 0.6);
-}
+} */
 
 .button span {
   color: #164ca7;

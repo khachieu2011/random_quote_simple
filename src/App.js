@@ -31,14 +31,23 @@ function App() {
   //   fetchAdvice();
   // }, []);
   return (
-    <div className="App">
-      <div className="card">
-        <h1 className="heading">{quote}</h1>
-        <h3 className="author">{author}</h3>
+    <div className="back w-full h-screen flex justify-center items-center bg-gray-800">
+      <div className="card w-auto flex flex-col justify-center items-center bg-white p-5 rounded-xl shadow-2xl">
+        <h1 className="heading p-4">{quote}</h1>
+        <h3 className="author mt-10 mb-10 self-end">{author}</h3>
+
+        <div>
+          <div>face</div>
+          <div>twitter</div>
+
+          <button
+            className="button border-2  p-3 rounded-xl mt-25"
+            onClick={() => fetchAdvice()}
+          >
+            <span>GIVE ME ADVICE!</span>
+          </button>
+        </div>
       </div>
-      <button className="button" onClick={() => fetchAdvice()}>
-        <span>GIVE ME ADVICE!</span>
-      </button>
     </div>
   );
 }
